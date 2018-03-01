@@ -48,10 +48,11 @@ const styles = {
     page: {
         marginLeft: 100,
         marginRight: 100,
-        marginTop: 20,
+        // marginTop: 20,
         marginBottom: 35,
     },
     button: {
+        marginTop: 5,
     }
 }
 

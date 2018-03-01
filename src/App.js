@@ -4,10 +4,16 @@ import SlidingSidebar from './components/SlidingSidebar';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div style={styles.alll}>
         <SlidingSidebar />
       </div>
     );
+  }
+}
+
+const styles = {
+  alll: {
+    background: '#E8C995'
   }
 }
 
