@@ -17,7 +17,7 @@ class SlidingSidebar extends React.Component {
                     Schedule a tour
                   </Button>
                 <Sidebar.Pushable as={Segment}>
-                    <Sidebar as={Menu} animation='slide out' width='thin' visible={visible} icon='labeled' vertical inverted>
+                    <Sidebar as={Menu} animation='overlay' width='thin' visible={visible} icon='labeled' vertical inverted>
                         <Menu.Item name='home'>
                             Home
                     </Menu.Item>

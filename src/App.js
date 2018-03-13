@@ -13,7 +13,7 @@ class App extends Component {
 
 const styles = {
   alll: {
-    background: '#E8C995'
+    background: '#84C5E2'
   }
 }
 
